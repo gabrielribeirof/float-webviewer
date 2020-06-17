@@ -1,0 +1,15 @@
+{
+  "name": "webview-overlay",
+  "version": "0.1.0",
+  "description": "Simple web viewer made with electron",
+  "main": "main.js",
+  "repository": "https://github.com/gabrielribeirof/webview-overlay.git",
+  "author": "Gabriel Ribeiro <ogabrielribeirof@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^9.0.4"
+  }
+}
