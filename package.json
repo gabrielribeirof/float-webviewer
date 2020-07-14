@@ -4,15 +4,16 @@
   "description": "Web viewer made with electron",
   "repository": "https://github.com/gabrielribeirof/webview-overlay.git",
   "author": "Gabriel Ribeiro <ogabrielribeirof@gmail.com>",
-  "main": "src/main.js",
   "license": "MIT",
+  "main": "./main.ts",
   "scripts": {
-    "start": "electron .",
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "build": "yarn tsc",
+    "dev": "yarn build && electron ./dist/main.js"
+  },
+  "dependencies": {
+    "electron": "^9.0.4"
   },
   "devDependencies": {
-    "electron": "^9.0.4",
-    "electron-builder": "^22.7.0"
+    "typescript": "^3.9.6"
   }
 }
