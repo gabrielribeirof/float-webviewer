@@ -1,4 +1,4 @@
-# Float Web Viewer  <img src="https://img.shields.io/github/repo-size/gabrielribeirof/floatwebviewer?color=informational"> <img src="https://img.shields.io/github/repo-size/gabrielribeirof/floatwebviewer?color=informational">
+# :fire: Float Web Viewer <img src="https://img.shields.io/github/repo-size/gabrielribeirof/floatwebviewer?color=informational">
 
 Float web viewer made with electron. To use run install all dependencies and run 'npm run start' or 'yarn start'.
 
