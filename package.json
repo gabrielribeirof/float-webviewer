@@ -8,12 +8,14 @@
   "main": "./main.ts",
   "scripts": {
     "build": "yarn tsc",
-    "dev": "yarn build && electron ./dist/main.js"
+    "start": "yarn build && electron ./dist/main.js",
+    "dev": "ts-node-dev ."
   },
   "dependencies": {
     "electron": "^9.0.4"
   },
   "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.56",
     "typescript": "^3.9.6"
   }
 }
