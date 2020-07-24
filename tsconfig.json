@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "CommonJS",
+    "target": "ES6",
     "allowJs": true,
     "sourceMap": true,
     "outDir": "dist",
-    "strict": true ,
-    "esModuleInterop": true,
-    "types": ["node"]
-  },
-  "exclude": ["node_modules"]
+    "strict": true,
+    "esModuleInterop": true
+  }
 }
