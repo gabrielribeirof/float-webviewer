@@ -2,7 +2,7 @@
   "name": "floatwebviewer",
   "version": "0.1.0",
   "description": "Web viewer made with electron",
-  "repository": "https://github.com/gabrielribeirof/webview-overlay.git",
+  "repository": "https://github.com/gabrielribeirof/floatwebviewer.git",
   "author": "Gabriel Ribeiro <ogabrielribeirof@gmail.com>",
   "license": "MIT",
   "main": "main.js",
